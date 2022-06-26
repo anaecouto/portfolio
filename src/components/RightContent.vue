@@ -15,6 +15,7 @@ export default {
 .right-content {
   font-family: "Merriweather", serif;
   font-weight: 400;
+  font-style: italic;
   max-width: 750px;
 }
 </style>
