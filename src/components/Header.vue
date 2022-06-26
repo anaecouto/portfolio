@@ -16,7 +16,7 @@
           duration-150
         "
       >
-        <a href="http://gooogle.com.br">{{ item.name }}</a>
+        <div>{{ item.name }}</div>
       </li>
     </ul>
   </div>
