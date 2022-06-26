@@ -16,7 +16,7 @@
           duration-150
         "
       >
-        <div>{{ item.name }}</div>
+        <router-link :to="'/' + item.name.toLowerCase()">{{ item.name }}</router-link>
       </li>
     </ul>
   </div>
@@ -71,7 +71,7 @@ export default {
     position: absolute;
     width: 11%;
     left: 45%;
-    height: 7px;
+    height: 45px;
     border-bottom: 1px solid rgb(56, 5, 5);
   }
 }
