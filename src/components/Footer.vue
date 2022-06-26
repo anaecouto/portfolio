@@ -1,6 +1,6 @@
 <template>
   <div class="footer flex justify-center">
-    <p class="footer-content self-end text-1xl m-6 p-3">portfolio by @anaecouto</p>
+    <p class="footer-content self-end text-1xl text-red-900 m-6 p-3">portfolio by @anaecouto</p>
   </div>
 </template>
 

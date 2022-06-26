@@ -1,5 +1,5 @@
 <template>
-  <div class="right-content xl:w-1/2 self-center m-5 p-3 text-2xl leading-loose">
+  <div class="right-content xl:w-1/2 self-center m-5 p-3 text-2xl leading-loose text-red-800">
     Welcome to Ana Elisa's portfolio! Browse through the above links to get to know more about me, and to find my skills and contact information.
   </div>
 </template>

@@ -9,6 +9,7 @@
           m-5
           p-3
           text-3xl
+          text-red-900
           transition
           ease-in-out
           delay-50
@@ -16,7 +17,7 @@
           duration-150
         "
       >
-        <div>{{ item.name }}</div>
+        <a href="http://gooogle.com.br">{{ item.name }}</a>
       </li>
     </ul>
   </div>
