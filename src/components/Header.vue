@@ -71,7 +71,7 @@ export default {
     position: absolute;
     width: 11%;
     left: 45%;
-    height: 40px;
+    height: 7px;
     border-bottom: 1px solid rgb(56, 5, 5);
   }
 }
