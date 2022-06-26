@@ -14,6 +14,7 @@ export default {
 <style scoped>
 .right-content {
   font-family: "Merriweather", serif;
+  font-weight: 400;
   max-width: 750px;
 }
 </style>
