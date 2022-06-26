@@ -8,8 +8,7 @@
           menu-item
           m-5
           p-3
-          text-3xl
-          text-red-900
+          text-3xl text-red-900
           transition
           ease-in-out
           delay-50
@@ -58,6 +57,7 @@ export default {
 @media only screen and (max-width: 560px) {
   ul {
     flex-direction: column-reverse;
+    text-align: center;
   }
 
   .menu-item {
@@ -71,7 +71,7 @@ export default {
     position: absolute;
     width: 11%;
     left: 45%;
-    height: 7px;
+    height: 40px;
     border-bottom: 1px solid rgb(56, 5, 5);
   }
 }
