@@ -15,8 +15,4 @@ export default {
 .left-content {
   max-width: 100%;
 }
-
-/* .lightbulb {
-  filter: hue-rotate(140deg);
-} */
 </style>
