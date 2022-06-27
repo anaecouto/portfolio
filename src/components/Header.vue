@@ -1,6 +1,6 @@
 <template>
   <div class="menu-items">
-    <ul class="flex flex-row-reverse">
+    <ul class="flex flex-row-reverse" :class="textColor">
       <li
         v-for="item in items"
         :key="item.id"
@@ -8,8 +8,7 @@
           menu-item
           m-5
           p-3
-          text-3xl 
-          text-red-900
+          text-3xl
           transition
           ease-in-out
           delay-50
@@ -17,7 +16,9 @@
           duration-150
         "
       >
-        <router-link :to="'/' + item.name.toLowerCase()">{{ item.name }}</router-link>
+        <router-link :to="'/' + item.name.toLowerCase()">{{
+          item.name
+        }}</router-link>
       </li>
     </ul>
   </div>
@@ -38,9 +39,24 @@ export default {
         { id: id++, name: "About" },
         { id: id++, name: "Home" },
       ],
+      textColor: "",
     };
   },
-  methods: {},
+  created() {
+    this.emitter.on(
+      "aboutEvent",
+      (event) => (this.textColor = event.textColor)
+    );
+    this.emitter.on("homeEvent", (event) => (this.textColor = event.textColor));
+    this.emitter.on(
+      "skillsEvent",
+      (event) => (this.textColor = event.textColor)
+    );
+    this.emitter.on(
+      "contactEvent",
+      (event) => (this.textColor = event.textColor)
+    );
+  },
 };
 </script>
 

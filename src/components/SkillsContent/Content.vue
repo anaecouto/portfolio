@@ -1,6 +1,6 @@
 <template>
   <div class="content justify-items-stretch flex">
-    <LightBulb />
+    <LightBulb class="yellow-lightbulb" />
     <RightContent />
   </div>
 </template>
@@ -16,6 +16,9 @@ export default {
     LightBulb,
     RightContent,
   },
+  mounted() {
+    this.emitter.emit("skillsEvent", { textColor: "text-yellow-700" });
+  },
 };
 </script>
 
@@ -24,5 +27,9 @@ export default {
   .content {
     flex-direction: column;
   }
+}
+
+.yellow-lightbulb {
+  filter: sepia(99%) saturate(759%) hue-rotate(28deg) brightness(150%);
 }
 </style>

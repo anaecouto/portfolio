@@ -9,7 +9,7 @@
       p-3
       text-2xl
       leading-loose
-      text-red-800
+      text-green-700
     "
   >
     <p>
