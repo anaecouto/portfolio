@@ -16,7 +16,7 @@
     energy engineering before I entered into the tech world and found my
     passion in coding along the years. Currently, I'm working as a back-end
     developer while studying as a graduate student in System Analysis and
-    Developement.
+    Development.
   </div>
 </template>
 
