@@ -80,16 +80,6 @@ export default {
   .menu-item {
     margin: 2px;
     padding: 2px;
-    position: relative;
-  }
-
-  .menu-item::after {
-    content: "";
-    position: absolute;
-    width: 11%;
-    left: 45%;
-    height: 45px;
-    border-bottom: 1px solid rgb(56, 5, 5);
   }
 }
 </style>
