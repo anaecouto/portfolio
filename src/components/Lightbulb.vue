@@ -15,4 +15,8 @@ export default {
 .left-content {
   max-width: 100%;
 }
+
+/* .lightbulb {
+  filter: sepia(38%) hue-rotate(19deg) brightness(89%);
+} */
 </style>
