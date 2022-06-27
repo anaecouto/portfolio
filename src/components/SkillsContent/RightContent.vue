@@ -8,6 +8,7 @@
       p-3
       text-2xl
       leading-loose
+      text-yellow-700
     "
   >
     <div class="flex flex-row items-center justify-around">

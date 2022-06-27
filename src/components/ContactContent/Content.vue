@@ -1,6 +1,6 @@
 <template>
   <div class="content justify-items-stretch flex">
-    <LightBulb />
+    <LightBulb class="green-lightbulb"/>
     <RightContent />
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
   }
 }
 
-/* .lightbulb {
-  filter: sepia(99%) saturate(759%) hue-rotate(28deg);
-} */
+.green-lightbulb {
+  filter: sepia(99%) saturate(759%) hue-rotate(60deg) brightness(150%);
+}
 </style>

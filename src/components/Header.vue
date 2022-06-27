@@ -8,8 +8,7 @@
           menu-item
           m-5
           p-3
-          text-3xl 
-          text-red-900
+          text-3xl text-red-900
           transition
           ease-in-out
           delay-50
@@ -17,7 +16,9 @@
           duration-150
         "
       >
-        <router-link :to="'/' + item.name.toLowerCase()">{{ item.name }}</router-link>
+        <router-link :to="'/' + item.name.toLowerCase()">{{
+          item.name
+        }}</router-link>
       </li>
     </ul>
   </div>
@@ -40,7 +41,6 @@ export default {
       ],
     };
   },
-  methods: {},
 };
 </script>
 

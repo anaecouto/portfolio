@@ -9,7 +9,7 @@
       p-3
       text-2xl
       leading-loose
-      text-red-800
+      text-yellow-700
     "
   >
     I'm Ana Elisa, 29 years-old, living in Brasília-DF in Brazil. I majored in
