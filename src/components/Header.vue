@@ -8,7 +8,8 @@
           menu-item
           m-5
           p-3
-          text-3xl text-red-900
+          text-3xl 
+          text-red-900
           transition
           ease-in-out
           delay-50
