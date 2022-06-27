@@ -13,9 +13,9 @@
     "
   >
     I'm Ana Elisa, 29 years-old, living in Brasília-DF in Brazil. I majored in
-    energy engineering and then decided to hop into the tech world. Found my
-    passion in coding along the years and now I'm working as a back-end
-    developer while studying as a graduate student in System Analyst and
+    energy engineering before I entered into the tech world and found my
+    passion in coding along the years. Currently, I'm working as a back-end
+    developer while studying as a graduate student in System Analysis and
     Developement.
   </div>
 </template>
