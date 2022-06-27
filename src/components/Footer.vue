@@ -1,6 +1,8 @@
 <template>
   <div class="footer flex justify-center">
-    <p class="footer-content self-end text-1xl text-red-900 m-6 p-3">portfolio by @anaecouto</p>
+    <p class="footer-content self-end text-1xl m-6 p-3" :class="textColor">
+      portfolio by @anaecouto
+    </p>
   </div>
 </template>
 
@@ -8,8 +10,26 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Footer",
-  props: {},
-  methods: {},
+  data() {
+    return {
+      textColor: "",
+    };
+  },
+  created() {
+    this.emitter.on(
+      "aboutEvent",
+      (event) => (this.textColor = event.textColor)
+    );
+    this.emitter.on("homeEvent", (event) => (this.textColor = event.textColor));
+    this.emitter.on(
+      "skillsEvent",
+      (event) => (this.textColor = event.textColor)
+    );
+    this.emitter.on(
+      "contactEvent",
+      (event) => (this.textColor = event.textColor)
+    );
+  },
 };
 </script>
 

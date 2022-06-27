@@ -16,6 +16,9 @@ export default {
     LightBulb,
     RightContent,
   },
+    mounted() {
+    this.emitter.emit("contactEvent", { textColor: "text-green-700" });
+  },
 };
 </script>
 

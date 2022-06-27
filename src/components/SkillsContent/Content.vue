@@ -16,6 +16,9 @@ export default {
     LightBulb,
     RightContent,
   },
+  mounted() {
+    this.emitter.emit("skillsEvent", { textColor: "text-yellow-700" });
+  },
 };
 </script>
 

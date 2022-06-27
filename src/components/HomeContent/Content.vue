@@ -16,6 +16,9 @@ export default {
     LightBulb,
     RightContent,
   },
+  mounted() {
+    this.emitter.emit("homeEvent", { textColor: "text-red-800" });
+  },
 };
 </script>
 
