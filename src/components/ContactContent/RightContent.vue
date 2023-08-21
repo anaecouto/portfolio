@@ -21,12 +21,13 @@
       <a href="https://github.com/anaecouto">GitHub's profile</a>
     </p>
     <p>
+      <a href="https://gitlab.com/anaecouto1">GitLab's profile</a>
+    </p>
+    <p>
       <a href="https://www.facebook.com/anaelisa.couto.9">Facebook's profile</a>
     </p>
     <p>
-      <a href="https://www.linkedin.com/in/ana-elisa-do-couto-427433123"
-        >LinkedIn's profile</a
-      >
+      <a href="https://www.linkedin.com/in/ana-elisa-do-couto-427433123">LinkedIn's profile</a>
     </p>
     <br />
     <p>
